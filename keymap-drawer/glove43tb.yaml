@@ -34,14 +34,14 @@ layers:
   - M
   - ','
   - .
-  - /
+  - BACKSPACE
   - LCTRL
   - LEFT WIN
   - LEFT ALT
   - {t: '&to_layer_0 INT_RO', h: '6'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
-  - BACKSPACE
+  - PRINTSCREEN
   - {t: ENTER, h: FUNCTION}
   - DEL
   FUNCTION:
@@ -72,7 +72,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -207,9 +207,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
