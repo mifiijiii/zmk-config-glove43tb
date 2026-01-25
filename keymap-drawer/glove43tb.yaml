@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - L
+  - I
   - O
   - P
   - A
@@ -38,9 +38,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: '6'}
+  - {t: '&to_layer_0 INTERNATIONAL_7', h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: '&to_layer_0 INT_KANA', h: ARROW}
   - PRINTSCREEN
   - {t: ENTER, h: FUNCTION}
   - DEL
