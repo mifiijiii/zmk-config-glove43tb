@@ -99,7 +99,7 @@ layers:
   - KP 9
   - KP MINUS
   - )
-  - /
+  - '['
   - KP 4
   - KP 5
   - KP 6
