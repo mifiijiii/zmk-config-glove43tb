@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT_RO', h: '6'}
+  - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: '6'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - PRINTSCREEN
@@ -121,8 +121,8 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - KP EQUAL
-  - \
+  - '='
+  - J
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
