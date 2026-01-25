@@ -109,10 +109,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                    &kp T                                                            &kp Y        &kp U  &kp L      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                    &kp G        &kp LS(LG(S))                      &kp COLON        &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                    &kp B        &kp SQT                            &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_RO  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp PRINTSCREEN  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                                 &kp T                                                            &kp Y        &kp U  &kp L      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                                 &kp G        &kp LS(LG(S))                      &kp COLON        &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                                 &kp B        &kp SQT                            &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG_ZENKAKUHANKAKU  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp PRINTSCREEN  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LA(TAB) LS(LA(TAB))>;
@@ -133,7 +133,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp KP_SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL  &kp BACKSLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp KP_SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp J
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans           &kp KP_N0                                                        &kp PIPE
             >;
         };
