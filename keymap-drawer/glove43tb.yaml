@@ -39,13 +39,13 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: '&to_layer_0 LANGUAGE_2', h: '6'}
-  - {t: SPACE, h: NUM}
+  - {t: SPACE, h: NUMandARROW}
   - {t: '&to_layer_0 LANGUAGE_1', h: ARROW}
   - INTERNATIONAL 5
   - {t: ENTER, h: FUNCTION}
   - DEL
   FUNCTION:
-  - {t: ▽, type: trans}
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,9 +56,9 @@ layers:
   - F3
   - F4
   - '@'
+  - (
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - F13
-  NUM:
+  NUMandARROW:
   - ESC
   - Ctl+Sft+TAB
   - UP ARROW
