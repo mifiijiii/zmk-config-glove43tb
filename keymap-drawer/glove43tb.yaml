@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - ':'
+  - ''''
   - H
   - J
   - {t: K, h: SCROLL}
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - ''''
+  - Sft+7
   - ;
   - N
   - M
@@ -45,9 +45,9 @@ layers:
   - {t: ENTER, h: FUNCTION}
   - DEL
   FUNCTION:
-  - '&'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+6
+  - Sft+1
+  - Sft+/
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -55,10 +55,10 @@ layers:
   - F2
   - F3
   - F4
-  - '@'
-  - (
+  - '['
+  - Sft+(
   - {t: ▽, type: trans}
-  - )
+  - Sft+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -67,7 +67,7 @@ layers:
   - F6
   - F7
   - F8
-  - _
+  - Sft+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
