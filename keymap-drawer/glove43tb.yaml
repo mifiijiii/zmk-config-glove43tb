@@ -22,7 +22,7 @@ layers:
   - J
   - {t: K, h: SCROLL}
   - L
-  - '-'
+  - {t: '-', h: RIGHT SHIFT}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -122,21 +122,21 @@ layers:
   - KP 2
   - KP 3
   - '='
-  - KP NUMLOCK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP NUMLOCK
   - KP 0
   - {t: ▽, type: trans}
   ARROW:
   - ESCAPE
-  - Ctl+Sft+TAB
-  - UP ARROW
-  - Ctl+TAB
+  - Alt+Sft+TAB
+  - Ctl+UP ARROW
+  - Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,9 +144,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - Ctl+LEFT ARROW
+  - Ctl+DOWN ARROW
+  - Ctl+RIGHT ARROW
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,9 +156,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
+  - Gui+Ctl+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - Gui+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
