@@ -126,7 +126,7 @@
 &trans             &trans      &trans         &trans      &trans  &trans          &trans  &trans                            &kp F13
             >;
 
-            sensor-bindings = <&sensor_rotate_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NUMandARROW {
