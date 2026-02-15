@@ -115,18 +115,18 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp INTERNATIONAL_5  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
             bindings = <
 &kp LS(N6)         &kp LS(N1)  &kp LS(SLASH)  &trans      &trans                          &trans  &kp F1  &kp F2   &kp F3   &kp F4
 &kp LEFT_BRACKET   &kp LS(N8)  &trans         &kp LS(N9)  &trans  &trans          &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&kp RS(BACKSLASH)  &trans      &trans         &trans      &trans  &kp K_MUTE      &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&kp RS(BACKSLASH)  &trans      &trans         &trans      &trans  &kp C_MUTE      &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
 &trans             &trans      &trans         &trans      &trans  &trans          &trans  &trans                            &kp F13
             >;
 
-            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&sensor_rotate_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         NUMandARROW {
