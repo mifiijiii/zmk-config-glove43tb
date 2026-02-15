@@ -56,7 +56,7 @@ layers:
   - F3
   - F4
   - '['
-  - Sft+(
+  - Sft+8
   - {t: ▽, type: trans}
   - Sft+9
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - '='
+  - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
