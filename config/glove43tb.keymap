@@ -120,10 +120,10 @@
 
         FUNCTION {
             bindings = <
-&kp LS(N6)         &kp LS(N1)                &kp LS(SLASH)  &trans      &trans                          &trans  &kp F1  &kp F2   &kp F3   &kp F4
-&kp LEFT_BRACKET   &kp LS(LEFT_PARENTHESIS)  &trans         &kp LS(N9)  &trans  &trans          &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&kp RS(BACKSLASH)  &trans                    &trans         &trans      &trans  &kp K_MUTE      &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
-&trans             &trans                    &trans         &trans      &trans  &trans          &trans  &trans                            &kp F13
+&kp LS(N6)         &kp LS(N1)  &kp LS(SLASH)  &trans      &trans                          &trans  &kp F1  &kp F2   &kp F3   &kp F4
+&kp LEFT_BRACKET   &kp LS(N8)  &trans         &kp LS(N9)  &trans  &trans          &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&kp RS(BACKSLASH)  &trans      &trans         &trans      &trans  &kp K_MUTE      &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&trans             &trans      &trans         &trans      &trans  &trans          &trans  &trans                            &kp F13
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -131,10 +131,10 @@
 
         NUMandARROW {
             bindings = <
-&kp ESC         &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp SLASH
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp KP_ASTERISK
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &kp KP_NUMLOCK  &kp KP_N0                                                        &trans
+&kp ESC         &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS   &kp SLASH
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &kp KP_ASTERISK
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)  &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &kp KP_NUMLOCK  &kp KP_N0                                                         &trans
             >;
         };
 
